@@ -1,4 +1,4 @@
-class LogicalOperator
+class RelationalOperator
 {
   publis static void main(String[] args)
   {
