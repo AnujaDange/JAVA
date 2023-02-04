@@ -8,9 +8,13 @@ public class Armstrong1
 	 	 int n=sc.nextInt();	
 	 	 boolean r=isArmstrong(n);	
 	 	 	 	 if(r)	
+				 {
 	 	 	 	  System.out.println("Given num is Armstrong");	
-	 	 	 	 else	
-	 	 	 	  System.out.println("Given num is not Armstrong");	
+				 }
+		               else
+			       {
+	 	 	 	  System.out.println("Given num is not Armstrong");
+			       }
 	 }	
 	 static int countDigit(int num)	
 	 {	
