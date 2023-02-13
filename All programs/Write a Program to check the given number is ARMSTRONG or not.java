@@ -28,7 +28,7 @@ public class Armstrong1
 	 }	
 	 static int pow(int n,int p)	
 	 {	
-	 	 int	pw=1;	
+	 	 int pw=1;	
 	 	 while(p>0)	
 	 	 {	
 	 	 	 pw=pw*n;	
@@ -38,12 +38,12 @@ public class Armstrong1
 	 }	
 	 static boolean isAmstrong(int x)	
 	 {	
-	 	 int	nd=countDigit(x);	
-	 	 int	t=x;	
-	 	 int	sum=0;	
+	 	 int nd=countDigit(x);	
+	 	 int t=x;	
+	 	 int sum=0;	
 	 	 while(t>0)	
 	 	 {	
-	 	 	 int	r=t%10;	
+	 	 	 int r=t%10;	
 	 	 	 sum=sum+ pow(r,nd);	
 	 	 	 t=t/10;	
 	 	 }	
