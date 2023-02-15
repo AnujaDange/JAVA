@@ -1,4 +1,4 @@
-package matrix_operation;
+3package matrix_operation;
 
 import java.util.Scanner;
 
@@ -62,16 +62,16 @@ public class Matrix {
     	  }
     	  System.out.println();
       }
-      System.out.println("******Multiplication of matrix*******");
+      System.out.println("*******Multiplication of matrix*******");
 		for(int i=0 ; i<m ;i++)
 		{
 			for(int j=0 ; j<n ;j++)
-			{
+			     {
 				mul[i][j]= a[i][j] * b[i][j];
 				System.out.print(mul[i][j]+" ");
-			}
-			System.out.println();
-      }
+			      }
+	  		System.out.println();
+               }
       
 	}
 
